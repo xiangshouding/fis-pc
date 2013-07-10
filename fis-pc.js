@@ -55,6 +55,10 @@ fis.config.merge({
                 reg : /^\/(plugin|server\.conf$)|\.php$/i
             },
             {
+                reg: "domain.conf",
+                release: '/config/$&'
+            },
+            {
                 reg : '${namespace}-map.json',
                 release : '/config/${namespace}-map.json'
             },
