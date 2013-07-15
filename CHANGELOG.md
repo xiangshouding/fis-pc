@@ -1,3 +1,9 @@
+## 0.1.7
+
+    升级fis至v1.0.6
+    升级fis-optimizer-html-compress至0.0.4
+    升级fis-optimizer-smarty-xss至0.0.5
+
 ## 0.1.6 
     
     升级fis-preprocessor-extlang至v0.0.5
