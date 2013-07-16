@@ -1,6 +1,6 @@
 {
   "name": "fis-pc",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Front End Integrated Solution for PC",
   "main": "fis-pc.js",
   "bin": {
@@ -18,8 +18,8 @@
     "fis": "1.0.6",
     "fis-preprocessor-extlang": "0.0.5",
     "fis-postprocessor-require-async": "0.0.4",
-    "fis-optimizer-smarty-xss": "0.0.5",
-    "fis-optimizer-html-compress": "0.0.4",
+    "fis-optimizer-smarty-xss": "0.0.6",
+    "fis-optimizer-html-compress": "0.0.5",
     "fis-parser-bdtmpl": "0.0.2",
     "fis-parser-less": "0.0.8"
   },
