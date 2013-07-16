@@ -1,3 +1,9 @@
+## 0.1.9
+    fisp -v版本显示读取package.json中的版本
+## 0.1.8
+    升级fis-optimizer-html-compress至0.0.5
+    升级fis-optimizer-smarty-xss至0.0.6
+
 ## 0.1.7
 
     升级fis至v1.0.6
