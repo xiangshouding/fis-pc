@@ -60,6 +60,10 @@ fis.config.merge({
                 release: '/config/$&'
             },
             {
+                reg: "build.sh",
+                release: false
+            },
+            {
                 reg : '${namespace}-map.json',
                 release : '/config/${namespace}-map.json'
             },
