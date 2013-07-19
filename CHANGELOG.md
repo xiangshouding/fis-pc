@@ -1,3 +1,5 @@
+## 0.2.0
+    build.sh不产出
 ## 0.1.9
     fisp -v版本显示读取package.json中的版本
 ## 0.1.8
