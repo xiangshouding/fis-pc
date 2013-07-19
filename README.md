@@ -10,20 +10,7 @@
     # start local server
     $ fis-pc server start
     
-    # install service
-    $ fis-pc server install pc2
-    
-    $ mkdir project
-    
-    $ cd project
-     
-    # install a pc2-demo project
-    $ fis-pc install pc2-demo
-     
-    # release your project to local server
-    $ fis-pc release --watch
-     
-    # browse http://localhost:8080/photo
+* [fis-pc-demo](https://github.com/xiangshouding/fis-pc-demo)
 
 
 ## Commands
@@ -44,9 +31,9 @@
 
 more information:
 
-* [fis release --help](https://github.com/fouber/fis-command-release "fis-command-release")
-* [fis install --help](https://github.com/fouber/fis-command-install "fis-command-install")
-* [fis server --help](https://github.com/fouber/fis-command-server "fis-command-server")
+* [fis release --help](https://github.com/fis-dev/fis-command-release "fis-command-release")
+* [fis install --help](https://github.com/fis-dev/fis-command-install "fis-command-install")
+* [fis server --help](https://github.com/fis-dev/fis-command-server "fis-command-server")
 
 ## Configure fis
 
