@@ -53,7 +53,7 @@ fis.config.merge({
                 release: '/$1/${namespace}/$2'
             },
             {
-                reg : /^\/(plugin|server\.conf$)|\.php$/i
+                reg : /^\/(plugin|server\.conf$|smarty\.conf$)|\.php$/i
             },
             {
                 reg: "domain.conf",
