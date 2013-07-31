@@ -1,2 +1,3 @@
 #!/usr/bin/env node
+
 require('../fis-pc.js').cli.run(process.argv);
