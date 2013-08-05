@@ -40,6 +40,13 @@
     * [模板压缩工具](https://github.com/xiangshouding/fis-pc/wiki/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E5%85%B7#%E6%A8%A1%E6%9D%BF%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7)
     * [JS压缩工具](https://github.com/xiangshouding/fis-pc/wiki/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E5%85%B7#js%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7)
     * [CSS压缩工具](https://github.com/xiangshouding/fis-pc/wiki/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E5%85%B7#css%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7)
+* 插件使用
+    * [html](https://github.com/xiangshouding/fis-pc/wiki/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#html)
+    * [head](https://github.com/xiangshouding/fis-pc/wiki/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#head)
+    * [body](https://github.com/xiangshouding/fis-pc/wiki/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#body)
+    * [script](https://github.com/xiangshouding/fis-pc/wiki/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#script)
+    * [require](https://github.com/xiangshouding/fis-pc/wiki/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#require)
+    * [widget](https://github.com/xiangshouding/fis-pc/wiki/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#widget)
 * 开发配置
     * [打包配置](https://github.com/xiangshouding/fis-pc/wiki/%E6%89%93%E5%8C%85%E9%85%8D%E7%BD%AE)
     * [插件配置](https://github.com/xiangshouding/fis-pc/wiki/%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE)
@@ -49,6 +56,7 @@
 
 * [本地模拟请求转发功能](https://github.com/xiangshouding/fis-pc/wiki/%E6%9C%AC%E5%9C%B0%E6%A8%A1%E6%8B%9F%E8%AF%B7%E6%B1%82%E8%BD%AC%E5%8F%91%E5%8A%9F%E8%83%BD)
 * [本地调试数据功能](https://github.com/xiangshouding/fis-pc/wiki/%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E6%95%B0%E6%8D%AE%E5%8A%9F%E8%83%BD)
+* [线上调试测试](https://github.com/xiangshouding/fis-pc/wiki/%E7%BA%BF%E4%B8%8A%E8%B0%83%E8%AF%95%E6%B5%8B%E8%AF%95)
 
 ## 上传部署
 
