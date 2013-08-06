@@ -22,7 +22,8 @@ fis.config.merge({
     },
     roadmap : {
         ext : {
-            less : 'css'
+            less : 'css',
+            tmpl : 'js'
         },
         path : [
             {
