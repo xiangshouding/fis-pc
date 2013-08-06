@@ -1,9 +1,11 @@
 ## 0.3.0
 
     升级fis-optimizer-smarty-xss至0.0.7
+    升级fis-parser-bdtmpl至0.0.3
 
 * 修复XSS修复BUG，有重复变量名时可能出现漏修复的情况
 * 增加对前端模板的处理方式，以JS类型进行处理
+* 修复baiduTemplate在linux下的文件加载失败bug，以及一些语法错误
 
 ##0.2.9
     升级fis至v1.1.9
