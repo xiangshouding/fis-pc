@@ -1,21 +1,18 @@
 {
   "name": "fis-pc",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Front End Integrated Solution for PC",
   "main": "fis-pc.js",
   "bin": {
     "fis-pc": "bin/fis-pc",
     "fisp": "bin/fis-pc"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/xiangshouding/fis-pc.git"
   },
   "dependencies": {
-    "fis": "1.2.2",
+    "fis": "1.2.3",
     "fis-preprocessor-extlang": "0.0.5",
     "fis-postprocessor-require-async": "0.0.6",
     "fis-optimizer-smarty-xss": "0.0.7",

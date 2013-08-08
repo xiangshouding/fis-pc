@@ -1,4 +1,8 @@
-## 0.3.1
+## 0.3.3
+
+	升级fis至 [v1.2.3](https://github.com/fis-dev/fis/blob/master/CHANGELOG.md#123)
+
+## 0.3.2
 
 	升级fis至 [v1.2.2](https://github.com/fis-dev/fis/blob/master/CHANGELOG.md#122)
 	升级fis-optimizer-htmll-compress至0.0.7
