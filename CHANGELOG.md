@@ -1,3 +1,7 @@
+## 0.3.1
+
+	升级fis至 [v1.2.1](https://github.com/fis-dev/fis/blob/master/CHANGELOG.md#121)
+
 ## 0.3.0
 
     升级fis-optimizer-smarty-xss至0.0.7
