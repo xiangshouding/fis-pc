@@ -1,5 +1,12 @@
 ## 0.3.1
 
+	升级fis至 [v1.2.2](https://github.com/fis-dev/fis/blob/master/CHANGELOG.md#122)
+	升级fis-optimizer-htmll-compress至0.0.7
+
+* 修改tpl压缩对script插件中的JS不进行压缩
+
+## 0.3.1
+
 	升级fis至 [v1.2.1](https://github.com/fis-dev/fis/blob/master/CHANGELOG.md#121)
 
 ## 0.3.0
