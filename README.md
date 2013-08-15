@@ -48,6 +48,7 @@
     * [require](https://github.com/xiangshouding/fis-pc/wiki/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#require)
     * [widget](https://github.com/xiangshouding/fis-pc/wiki/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8#widget)
 * 开发配置
+    * [基础配置](https://github.com/xiangshouding/fis-pc/wiki/%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE) 
     * [打包配置](https://github.com/xiangshouding/fis-pc/wiki/%E6%89%93%E5%8C%85%E9%85%8D%E7%BD%AE)
     * [插件配置](https://github.com/xiangshouding/fis-pc/wiki/%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE)
     * [产出配置](https://github.com/xiangshouding/fis-pc/wiki/%E4%BA%A7%E5%87%BA%E9%85%8D%E7%BD%AE)
