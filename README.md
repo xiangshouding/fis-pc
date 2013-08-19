@@ -1,3 +1,6 @@
+##FIS-PC
+[![NPM version](https://badge.fury.io/js/fis-pc.png)](http://badge.fury.io/js/fis-pc)
+
 > FIS-PC提供了一套贯穿开发流程的开发体系和集成开发环境，为产品线提供前端开发底层架构，帮助工程师提高开发效率，沟通协作效率，快速实现需求并达到代码的最优化。
 
 ## 快速上手
