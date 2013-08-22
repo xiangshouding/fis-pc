@@ -1,7 +1,10 @@
+## 0.3.9
+
+> 升级fis至 [v1.3.1](https://github.com/fis-dev/fis/blob/master/CHANGELOG.md#131)
+
 ## 0.3.8
 
 > 升级fis至 [v1.2.9](https://github.com/fis-dev/fis/blob/master/CHANGELOG.md#129)
-
 
 ## 0.3.7
 
