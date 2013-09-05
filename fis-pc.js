@@ -10,7 +10,7 @@ fis.config.merge({
             tmpl: 'bdtmpl'
         },
         preprocessor: {
-            tpl: 'extlang'
+            tpl: 'widget-inline, extlang'
         },
         postprocessor: {
             tpl: 'require-async',
