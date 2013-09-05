@@ -1,3 +1,8 @@
+## 0.4.1
+
+> 增加widget inline功能
+> 添加对fis-preprocessor-widget-inline@0.0.3的依赖
+
 ## 0.4.0
 
 > 升级fis至 [v1.3.6](https://github.com/fis-dev/fis/blob/master/CHANGELOG.md#136)
