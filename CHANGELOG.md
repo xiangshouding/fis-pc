@@ -1,6 +1,13 @@
+## 0.4.2
+
+> 升级fis至[v1.4.4](https://github.com/fis-dev/fis/blob/master/CHANGELOG.md#144)
+
+> 升级fis-preprocessor-extlang至v0.0.6，添加{%style%}函数的支持
+
 ## 0.4.1
 
 > 增加widget inline功能
+
 > 添加对fis-preprocessor-widget-inline@0.0.3的依赖
 
 ## 0.4.0
