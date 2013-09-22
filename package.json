@@ -1,6 +1,6 @@
 {
   "name": "fis-pc",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Front End Integrated Solution for PC",
   "main": "fis-pc.js",
   "bin": {
@@ -15,7 +15,7 @@
     "url": "https://github.com/xiangshouding/fis-pc.git"
   },
   "dependencies": {
-    "fis": "1.4.4",
+    "fis": "1.4.12",
     "fis-preprocessor-extlang": "0.0.6",
     "fis-preprocessor-widget-inline": "0.0.3",
     "fis-postprocessor-require-async": "0.0.6",
