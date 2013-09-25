@@ -1,3 +1,7 @@
+## 0.4.4
+
+> 升级fis-preprocessor-widget-inline到v0.0.6，支持exclude
+
 ## 0.4.3
 
 > 升级fis至[v1.4.12](https://github.com/fis-dev/fis/blob/master/CHANGELOG.md#1412)
