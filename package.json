@@ -19,7 +19,7 @@
     "fis-preprocessor-extlang": "0.0.6",
     "fis-preprocessor-widget-inline": "0.0.6",
     "fis-postprocessor-require-async": "0.0.6",
-    "fis-optimizer-smarty-xss": "0.0.7",
+    "fis-optimizer-smarty-xss": "0.0.8",
     "fis-optimizer-html-compress": "0.0.7",
     "fis-parser-bdtmpl": "0.0.3",
     "fis-parser-less": "0.0.8"
