@@ -1,3 +1,6 @@
+## 0.4.5
+
+> 升级fis-optimizer-smarty-xss到v0.0.8，修复对script插件内JS代码XSS修复BUG
 ## 0.4.4
 
 > 升级fis-preprocessor-widget-inline到v0.0.6，支持exclude
