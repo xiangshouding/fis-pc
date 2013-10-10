@@ -4,6 +4,8 @@ if(!defined('DIFF_ROOT_PATH')) define('DIFF_ROOT_PATH', str_replace('\\', '/', d
 /** 定义和产品线相关的产出目录 */
 if(!defined('WENKU_PATH')) define('WENKU_PATH',DIFF_ROOT_PATH.'product_output/wenku/' );
 if(!defined('BATMAN_PATH')) define('BATMAN_PATH',DIFF_ROOT_PATH.'product_output/batman/' );
+if(!defined('PLACE_PATH')) define('PLACE_PATH',DIFF_ROOT_PATH.'product_output/place/' );
+if(!defined('TIEBA_PATH')) define('TIEBA_PATH',DIFF_ROOT_PATH.'product_output/tieba/' );
 
 $config = array(
     'product'=>array(      //产品线目录
@@ -20,6 +22,20 @@ $config = array(
             'oldoutputdir' => BATMAN_PATH.'output_old',  //使用旧版本编译后的产出
             "modules" =>"transit,place,common,index,addr,feedback,drive,walk", //待编译的模块
             'result' => BATMAN_PATH.'result/'
+        ),
+        'place'=>array(
+            'name'=>'place',
+            'newoutputdir' => PLACE_PATH.'output_new',    //使用新版本编译后的产出
+            'oldoutputdir' => PLACE_PATH.'output_old',  //使用旧版本编译后的产出
+            "modules" =>"admin,beauty,cater,common,detail,hotel,movie,scope", //待编译的模块
+            'result' => PLACE_PATH.'result/'
+        ),
+        'tieba'=>array(
+            'name'=>'tieba',
+            'newoutputdir' => TIEBA_PATH.'output_new',    //使用新版本编译后的产出
+            'oldoutputdir' => TIEBA_PATH.'output_old',  //使用旧版本编译后的产出
+            "modules" =>"xpb", //待编译的模块
+            'result' => TIEBA_PATH.'result/'
         )
     ),
     'smarty' => array(

@@ -42,11 +42,11 @@ then
     chmod 777 ${WENKU_OUTPUT_PATH}	
 	
 	#tieba
-#	rm -rf ${TIEBA_OUTPUT_PATH}/output_new
-#	cd ${TIEBA_CODE_PATH} 
-#	node ${FISP_PATH}/bin/fis-pc release -md ${TIEBA_OUTPUT_PATH}/output_new
-#	echo $v > ${TIEBA_OUTPUT_PATH}/output_new/fis_version.txt
-#    chmod 777 ${TIEBA_OUTPUT_PATH}	
+	rm -rf ${TIEBA_OUTPUT_PATH}/output_new
+	cd ${TIEBA_CODE_PATH}
+	node ${FISP_PATH}/bin/fis-pc release -md ${TIEBA_OUTPUT_PATH}/output_new
+	echo $v > ${TIEBA_OUTPUT_PATH}/output_new/fis_version.txt
+    chmod 777 ${TIEBA_OUTPUT_PATH}
 	
 	#batman
 	rm -rf ${BATMAN_OUTPUT_PATH}/output_new
@@ -59,14 +59,14 @@ then
     chmod 777 ${BATMAN_OUTPUT_PATH}	
 	
 	#place
-#	rm -rf ${PLACE_OUTPUT_PATH}/output_new
-#	for module in ${PLACE_MODULES[@]} 
-#	do
-#	    cd ${PLACE_CODE_PATH}/$module 
-#	    node ${FISP_PATH}/bin/fis-pc release -md ${PLACE_OUTPUT_PATH}/output_new --no-color
-#	done
-#	echo $v > ${PLACE_OUTPUT_PATH}/output_new/fis_version.txt
-#    chmod 777 ${PLACE_OUTPUT_PATH}	
+	rm -rf ${PLACE_OUTPUT_PATH}/output_new
+	for module in ${PLACE_MODULES[@]}
+	do
+	    cd ${PLACE_CODE_PATH}/$module
+	    node ${FISP_PATH}/bin/fis-pc release -md ${PLACE_OUTPUT_PATH}/output_new --no-color
+	done
+	echo $v > ${PLACE_OUTPUT_PATH}/output_new/fis_version.txt
+    chmod 777 ${PLACE_OUTPUT_PATH}
 else
 	#wenku
 	rm -rf ${WENKU_OUTPUT_PATH}/output_old
@@ -76,11 +76,11 @@ else
     chmod 777 -R ${WENKU_OUTPUT_PATH}/output_old	
 	
 	#tieba
-#	rm -rf ${TIEBA_OUTPUT_PATH}/output_old
-#	cd ${TIEBA_CODE_PATH}
-#	fisp release -md ${TIEBA_OUTPUT_PATH}/output_old
-#	echo $v > ${TIEBA_OUTPUT_PATH}/output_old/fis_version.txt
-#   chmod 777 -R ${TIEBA_OUTPUT_PATH}/output_old	
+	rm -rf ${TIEBA_OUTPUT_PATH}/output_old
+	cd ${TIEBA_CODE_PATH}
+	fisp release -md ${TIEBA_OUTPUT_PATH}/output_old
+	echo $v > ${TIEBA_OUTPUT_PATH}/output_old/fis_version.txt
+    chmod 777 -R ${TIEBA_OUTPUT_PATH}/output_old
 	
     #batman
 	rm -rf ${BATMAN_OUTPUT_PATH}/output_old
@@ -93,12 +93,12 @@ else
     chmod 777 -R ${BATMAN_OUTPUT_PATH}/output_old	
     
 	#place
-#	rm -rf ${PLACE_OUTPUT_PATH}/output_old
-#	for module in ${PLACE_MODULES[@]}
-#	do
-#		cd ${PLACE_CODE_PATH}/$module
-#		fisp release -md ${PLACE_OUTPUT_PATH}/output_old --no-color
-#	done
-#	echo $v > ${PLACE_OUTPUT_PATH}/output_old/fis_version.txt
-#   chmod 777 -R ${PLACE_OUTPUT_PATH}/output_old	
+	rm -rf ${PLACE_OUTPUT_PATH}/output_old
+	for module in ${PLACE_MODULES[@]}
+	do
+		cd ${PLACE_CODE_PATH}/$module
+		fisp release -md ${PLACE_OUTPUT_PATH}/output_old --no-color
+	done
+	echo $v > ${PLACE_OUTPUT_PATH}/output_old/fis_version.txt
+    chmod 777 -R ${PLACE_OUTPUT_PATH}/output_old
 fi
