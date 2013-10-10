@@ -12,10 +12,8 @@ foreach($productlist as $pro => $value){
 //    $diff->build();
 //    $diff->analyze();
     $diff->Display();
-//    $productlist[$pro]['url'] = diff::getConfig('url').str_replace("/home/work/repos/","",
-//        $smartyConfig['templatedir'].$pro."_difflist.html");
-    $productlist[$pro]['url'] = diff::getConfig('url').str_replace("D:/Workplace/","",
-            $smartyConfig['templatedir'].$pro."_difflist.html");
+    $productlist[$pro]['url'] = diff::getConfig('url').str_replace("/home/work/repos/","",
+        $smartyConfig['templatedir'].$pro."_difflist.html");
 }
 $smarty = new Smarty();
 $smarty->assign('productsdiff',$productlist);

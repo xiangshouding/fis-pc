@@ -323,8 +323,7 @@ class Diff{
                 $this->smarty->assign('diffdata',$diffdata);
                 $html = $this->smarty->fetch($smartyConfig['templatedir']."diffdetails.tpl");
                 $htmlpath = $smartyConfig['templatedir'].$this->proInfo['name']."_".str_replace("/", "_",substr($old,strrpos($old,'output_old') + 11)).".html";
-//                $fileurl = self::getConfig('url').str_replace("/home/work/repos/","",$htmlpath);
-                $fileurl = self::getConfig('url').str_replace("D:/Workplace/","",$htmlpath);
+                $fileurl = self::getConfig('url').str_replace("/home/work/repos/","",$htmlpath);
                 $diff = array(
                     'url' => $fileurl,
                     'name' => str_replace("/", "_",substr($old,strrpos($old,'output_old') + 11)),
@@ -369,6 +368,8 @@ class Diff{
 //            $smartyConfig['templatedir'].$this->proInfo['name']."_new_log.html");
 
         //不同文件的list展示
+        $this->smarty->assign('newversion',file_get_contents($this->proInfo['newoutputdir']."/fis_version.txt"));
+        $this->smarty->assign('oldversion',file_get_contents($this->proInfo['oldoutputdir']."/fis_version.txt"));
         $this->smarty->assign('productname',$this->proInfo['name']);
         $this->smarty->assign('difflist',$this->Diff);
         $html = $this->smarty->fetch($smartyConfig['templatedir']."/difflist.tpl");

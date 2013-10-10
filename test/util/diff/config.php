@@ -26,6 +26,5 @@ $config = array(
         'dir' => DIFF_ROOT_PATH.'../../libs/smarty-3.1.5',
         'templatedir' =>DIFF_ROOT_PATH. 'result/'
     ),
-//    'url' =>"http://10.48.30.87:8088/",
-    'url' =>"http://localhost/"
+    'url' =>"http://10.48.30.87:8088/"
 );
