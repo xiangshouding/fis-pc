@@ -28,8 +28,8 @@
         <TABLE style="BORDER-COLLAPSE: collapse" borderColor=#000000 height=40 cellPadding=1 align=left border=1>
           <tr>
             <td width="235" bgcolor="#009900">file name</td>
-            <td bgcolor="#009900">{$productname} new </td>
-            <td bgcolor="#009900">{$productname} old</td>
+            <td bgcolor="#009900">{$productname} new({$newversion}) </td>
+            <td bgcolor="#009900">{$productname} old({$oldversion}) </td>
           </tr>
           {foreach $difflist as $value}
               <tr>
