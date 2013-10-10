@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-TEST_PATH=/home/work/repos/fis_2.0_pc_diff/test/util/diff
+TEST_PATH=/home/work/repos/fis2.0_pc/test/util/diff
 cd  ${TEST_PATH}
 if [ -f "result/report.xml" ];then
    rm "result/report.xml"
