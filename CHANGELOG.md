@@ -1,3 +1,6 @@
+## 0.4.6
+
+> 升级fis至[v1.4.19](https://github.com/fis-dev/fis/blob/master/CHANGELOG.md#1419--thu-oct-10-2013)
 ## 0.4.5
 
 > 升级fis-optimizer-smarty-xss到v0.0.8，修复对script插件内JS代码XSS修复BUG
