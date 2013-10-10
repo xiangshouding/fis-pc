@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 TEST_PATH=/home/work/repos/fis2_pc_diff/test/util/diff
-FISP_PATH=/home/work/repos/fis2_pc_diff/fis-pc
+FISP_PATH=/home/work/repos/fis2_pc_diff/
 cd ${TEST_PATH}
 WENKU_CODE_PATH=${TEST_PATH}/product_code/wenku
 WENKU_OUTPUT_PATH=${TEST_PATH}/product_output/wenku
