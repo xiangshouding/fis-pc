@@ -23,19 +23,19 @@ $config = array(
             "modules" =>"transit,place,common,index,addr,feedback,drive,walk", //待编译的模块
             'result' => BATMAN_PATH.'result/'
         ),
-        'place'=>array(
-            'name'=>'place',
-            'newoutputdir' => PLACE_PATH.'output_new',    //使用新版本编译后的产出
-            'oldoutputdir' => PLACE_PATH.'output_old',  //使用旧版本编译后的产出
-            "modules" =>"admin,beauty,cater,common,detail,hotel,movie,scope", //待编译的模块
-            'result' => PLACE_PATH.'result/'
-        ),
         'tieba'=>array(
             'name'=>'tieba',
             'newoutputdir' => TIEBA_PATH.'output_new',    //使用新版本编译后的产出
             'oldoutputdir' => TIEBA_PATH.'output_old',  //使用旧版本编译后的产出
             "modules" =>"xpb", //待编译的模块
             'result' => TIEBA_PATH.'result/'
+        ),
+        'place'=>array(
+            'name'=>'place',
+            'newoutputdir' => PLACE_PATH.'output_new',    //使用新版本编译后的产出
+            'oldoutputdir' => PLACE_PATH.'output_old',  //使用旧版本编译后的产出
+            "modules" =>"admin,beauty,cater,common,detail,hotel,movie,scope", //待编译的模块
+            'result' => PLACE_PATH.'result/'
         )
     ),
     'smarty' => array(
