@@ -44,7 +44,7 @@ then
 	#tieba
 	rm -rf ${TIEBA_OUTPUT_PATH}/output_new
 	cd ${TIEBA_CODE_PATH}
-	node ${FISP_PATH}/bin/fis-pc release -md ${TIEBA_OUTPUT_PATH}/output_new
+	node ${FISP_PATH}/bin/fis-pc release -md ${TIEBA_OUTPUT_PATH}/output_new --no-color
 	echo $v > ${TIEBA_OUTPUT_PATH}/output_new/fis_version.txt
     chmod 777 ${TIEBA_OUTPUT_PATH}
 	
