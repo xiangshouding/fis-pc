@@ -10,5 +10,5 @@ sh new_fis_ready.sh
 chmod +x old_fis_ready.sh
 ./old_fis_ready.sh
 rm -rf result/*.html
-sleep 2s
+sleep 10s
 php -f diffall.class.php
